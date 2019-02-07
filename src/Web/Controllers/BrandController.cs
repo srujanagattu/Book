@@ -22,7 +22,7 @@ namespace Web.Controllers
 
          public IActionResult Types()
         {
-            return  Content("<html><body>Type of brands</body></html>");
+            return  Content("<html><body><h1>Type of brands</h1></body></html>", "text/html");
         }
 
         public IActionResult Catalogs()
